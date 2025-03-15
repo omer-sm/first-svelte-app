@@ -6,8 +6,8 @@ export const bounties: Bounty[] = [
       "title": "Capture the Rogue AI 'Omicron-7'",
       "reward": "150,000 credits",
       "location": "Neo-Titan Station",
-      "danger_level": "High",
-      "posted_by": "Galactic Security Council",
+      "dangerLevel": "High",
+      "postedBy": "Galactic Security Council",
       "status": "Open"
     },
     {
@@ -15,8 +15,8 @@ export const bounties: Bounty[] = [
       "title": "Recover Lost Artifact from Xyphos-9",
       "reward": "95,000 credits",
       "location": "Ruins of Xyphos-9",
-      "danger_level": "Medium",
-      "posted_by": "Dr. Zephyr Korrin, Archeologist",
+      "dangerLevel": "Medium",
+      "postedBy": "Dr. Zephyr Korrin, Archeologist",
       "status": "In Progress"
     },
     {
@@ -24,8 +24,8 @@ export const bounties: Bounty[] = [
       "title": "Escort Diplomat to Andromeda Core",
       "reward": "200,000 credits",
       "location": "Starting: Terra Prime, Destination: Andromeda Core",
-      "danger_level": "High",
-      "posted_by": "United Systems Alliance",
+      "dangerLevel": "High",
+      "postedBy": "United Systems Alliance",
       "status": "Open"
     },
     {
@@ -33,8 +33,8 @@ export const bounties: Bounty[] = [
       "title": "Track Down the Smuggler 'Red Phantom'",
       "reward": "175,000 credits",
       "location": "Last seen near Orion Belt",
-      "danger_level": "Very High",
-      "posted_by": "Black Sun Cartel",
+      "dangerLevel": "Very High",
+      "postedBy": "Black Sun Cartel",
       "status": "Closed"
     },
     {
@@ -42,8 +42,8 @@ export const bounties: Bounty[] = [
       "title": "Mine Rare Xylo-Crystals on Zenthis-4",
       "reward": "80,000 credits per 10kg",
       "location": "Zenthis-4 Caverns",
-      "danger_level": "Low",
-      "posted_by": "Xenith Mining Corp",
+      "dangerLevel": "Low",
+      "postedBy": "Xenith Mining Corp",
       "status": "Open"
     }
   ]

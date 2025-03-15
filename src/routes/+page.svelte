@@ -1,22 +1,18 @@
 <script>
     import { bounties } from "$lib/bounties.js";
     import BountyItem from "$lib/components/index/BountyItem.svelte";
+    import Header from "$lib/components/shared/Header.svelte";
 
     let filterOpenBounties = $state(false);    
 </script>
 
 <div class="container mt-4">
     <!-- Jumbotron -->
-    <div class="p-5 text-center bg-dark text-white rounded-3 shadow-lg">
-        <h1 class="display-4 fw-bold">Intergalactic Bounty Board</h1>
-        <p class="lead">
-            The galaxy’s most dangerous and rewarding missions await.
-        </p>
-        <hr class="my-4 border-light" />
-        <p>Are you skilled enough to take on these high-stakes contracts?</p>
-        <a class="btn btn-primary btn-lg mx-1" href="#bounties">View Bounties</a>
-        <a class="btn btn-primary btn-lg mx-1" href="/new-bounty">Post a Bounty</a>
-    </div>
+     <Header
+        title="Intergalactic Bounty Board"
+        subtitle="The galaxy’s most dangerous and rewarding missions await."
+        additionalText="Are you skilled enough to take on these high-stakes contracts?"
+    />
 
     <!-- Bounty list -->
     <div class="card flex-row justify-content-center">

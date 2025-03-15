@@ -23,11 +23,11 @@
     <li class="list-group-item m-1 card">
         <div class="d-flex justify-content-between align-items-start pe-2 pt-1">
             <h3>{bounty.title}</h3>
-            <span class="badge bg-{DANGER_COLORS[bounty.danger_level]}">
-                Danger level: {bounty.danger_level}</span
+            <span class="badge bg-{DANGER_COLORS[bounty.dangerLevel]}">
+                Danger level: {bounty.dangerLevel}</span
             >
         </div>
-        <h6 class="text-secondary">{bounty.posted_by}</h6>
+        <h6 class="text-secondary">{bounty.postedBy}</h6>
         <p>
             Status: <span class="text-{STATUS_COLORS[bounty.status]} fw-bold"
                 >{bounty.status}</span
